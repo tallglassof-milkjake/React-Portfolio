@@ -1,0 +1,29 @@
+.contactInfo {
+    padding-top: 2rem;
+}
+
+.divider {
+    border-left: 4px solid #0AC0F0;
+    height: 100%;
+}
+
+.form {
+    color: #f8f9fa;
+}
+
+.textArea {
+    
+}
+
+.textAreaEmail {
+    
+}
+
+.textAreaArea {
+    
+}
+
+.formRow {
+    max-width: 100%;
+    justify-content: center;
+}

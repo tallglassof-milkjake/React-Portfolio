@@ -1,0 +1,15 @@
+.head-jake {
+    text-decoration: none;
+}
+.head-jake, .my-info-display {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cover-link {
+    color: #0AC0F0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cover-link:hover {
+    color: #93E8FF;
+}

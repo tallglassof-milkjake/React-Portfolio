@@ -1,0 +1,30 @@
+.fastApp {
+    text-decoration: none;
+}
+
+.portfolioDescriptor {
+        color: #0AC0F0;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.cardHeading {
+    padding-top: 3rem;
+    color: #f8f9fa;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cardText {
+    color: #f8f9fa;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.imgRow {
+    height: 100%;
+}
+
+.projectCard {
+    padding: 0 2rem 0 2rem ;
+    border-width: 1px 0 1px 0;
+}

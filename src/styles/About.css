@@ -1,0 +1,41 @@
+@media screen and (max-width: 769px) {
+    .its-about-me{
+        text-align: center !important;
+    }
+
+    .contact-button, .info-p-me {
+        justify-content: center;
+    }
+
+    .this-is {
+        display: inline-block;
+    }
+
+    .trouble-row {
+        justify-content: center;
+    }
+}
+
+.head-jake, .my-info-display {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cover-info, .info-p-me, .info-p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 550px) {
+    .medium-display {
+        font-size: 50px;
+        padding-top: .5em;
+        padding-bottom: 1em;
+    }
+
+    .medium-muted {
+        font-size: 42px;
+    }
+}
+
+.contact-button {
+    justify-content: center;
+}
