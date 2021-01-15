@@ -1,39 +1,63 @@
-import React from "react";
+import React, { Component } from "react";
+import CardData from "./CardData";
 import "../../../../styles/CardLayout.css";
-import Image from "./Image";
+import Veg from "./images/FreshVeg.jpg";
+import Fast from "./images/watchMockFull.jpg";
+import Budget from "./images/BudgetTracker.jpg";
+import Workout from "./images/stats.jpg";
+import Directory from "./images/directory.jpg";
+import Burger from "./images/burgers.jpg";
 
 function CardLayout() {
-    return (
-        <div className="card border-dark">
-            <div className="row projectCard">
-                <div className="col-5">
-                    <Image />
-                </div>
-                <div className="col-7">
-                    <h4 className="card-title cardHeading">Card Title</h4>
-                    <p className="card-text cardText">Spicy jalapeno spare ribs ham ham hock boudin pig, bacon cupim turducken filet 
-                        mignon ground round. Meatball boudin chicken bresaola, pork loin venison strip 
-                        steak leberkas. Landjaeger tail pancetta short loin short ribs filet mignon ham 
-                        prosciutto strip steak chislic jerky tri-tip kevin leberkas. Bacon salami buffalo, 
-                        leberkas tenderloin drumstick beef ground round alcatra venison meatloaf 
-                        shoulder ribeye. Meatloaf fatback alcatra sausage tri-tip. Short loin meatball 
-                        fatback jerky.
-                    </p>
-                    <button className="btn btn-lg btn-outline-light mt-5 big-button mb-md-5">
-                        Learn More
-                    </button>
-                </div>
+    const projects = [
+        {
+          name: "Veg",
+          image: `${Veg}`,
+          title: "Fresh Veg",
+          text: ""
+        },
+        {
+          name: "Fast",
+          image: `${Fast}`,
+          title: "Fasting Tracker",
+          text: ""
+        },
+        {
+          name: "Budget",
+          image: `${Budget}`,
+          title: "Budget Tracker",
+          text: ""
+        },
+        {
+          name: "Workout",
+          image: `${Workout}`,
+          title: "Workout Tracker",
+          text: ""
+        },
+        {
+          name: "Directory",
+          image: `${Directory}`,
+          title: "Employee Directory",
+          text: ""
+        },
+        {
+          name: "Burger",
+          image: `${Burger}`,
+          title: "Eat The Burger",
+          text: ""
+        }
+      ]
 
-            </div>
-            {/* <a className="fastApp" href="faster" target="blank">
-                <h3 className="display-4 portfoilioDescriptor">Fasting App</h3>
-                <p className="lead portfoilioDescriptor">For this project we created a fasting tracker with a basic BMI calculator 
-                    and a calorie counter.
-                </p>
-            </a> */}
-        </div>
-        
-    )
+      
+        return (
+            <>
+                <CardData 
+                    projects={projects}
+                />
+                <br />
+            </>
+        )
+      
 }
 
 export default CardLayout;

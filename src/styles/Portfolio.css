@@ -1,0 +1,26 @@
+.medium-display, .info-p, .cardTitle, .cardText {
+    font-family: 'Roboto Mono', monospace !important;
+    color: #f8f9fa;
+}
+
+@media screen and (max-width: 550px) {
+    .medium-display {
+        font-size: 50px;
+        padding-top: .5em;
+        padding-bottom: 1em;
+    }
+
+    .medium-muted {
+        font-size: 42px;
+    }
+}
+
+.big-button {
+    font-family: 'Roboto Mono', monospace;
+    width: 15rem;
+    justify-self: center;
+}
+
+.projCard {
+    background: black;
+}

@@ -21,7 +21,7 @@
 }
 
 .cover-info, .info-p-me, .info-p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 @media screen and (max-width: 550px) {
