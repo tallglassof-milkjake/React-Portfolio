@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App container d-flex flex-column">
+        <div className="App container d-flex flex-column">        
           <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <Wrapper>
               <Header />
