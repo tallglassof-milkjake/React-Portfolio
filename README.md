@@ -19,6 +19,8 @@
 
 A first edition of my portfolio, showcasing successful class assignments and projects undertaken as a part of the Trilogy / University of Adelaide full stack coding bootcamp. Using Reactjs and deployed using heroku.
 
+See it [here!](https://jake-mackinlay.herokuapp.com/)
+
 
 ### Installation
 
